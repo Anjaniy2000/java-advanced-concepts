@@ -16,6 +16,7 @@ public class GCDemo {
     }
 
     //By Overriding finalize() - Method:
+    @Override
     protected void finalize() throws Throwable {
         System.out.println("Object Is Destroyed " + this.objectID);
     }
