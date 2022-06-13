@@ -10,7 +10,7 @@ public class GCDemo {
     }
 
     public static void main(String[] args) {
-        for(int i = 0 ; i < 5000000 ; i++){
+        for(int i = 0 ; i < 500000 ; i++){
             GCDemo demo = new GCDemo(i);
         }
     }
